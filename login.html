@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./sass/style.css">
+    <script defer src="./js/function.js"></script>
+    <title>Iniciando sesion</title>
+</head>
+<body>
+    <header class="header header--flex">
+        <article class="header__articlelogo">
+            <section class="header__section1 header__section1--flex">
+                <img src="img/image/logo liverpool.png" alt="Logo de liverpool">
+            </section>
+        </article>
+
+        <article class="header__articlelist">
+            <section class="header__section2 header__section2--flex">
+                <nav class="header__nav header__nav--flex" role="list">
+                    <a href="index.html">Inicio</a>
+                    <a href="products.html">Productos</a>
+                    <a href="#">Contacto</a>
+                </nav>
+
+                <section>
+                    <a href="login.html" role="button" lang="en">Login</a>
+                </section>
+            </section>
+        </article>
+    </header>
+
+    <main class="loginenvelopeform">
+        <article class="loginenvelopeform__article">
+            <section class="loginenvelopeform__section loginenvelopeform__section--flex">
+                <h1 class="loginenvelopeform__h1">
+                    Iniciando sesion
+                </h1>
+
+                <section class="loginenvelopeform__form">
+                    <section class="loginenvelopeform__labelinput loginenvelopeform__labelinput--flex">
+                        <label for="email"><img src="img/icons/mail_FILL0_wght100_GRAD200_opsz48.svg" alt="Icono de correo electronico"></label>
+                        <input type="email" id="email" placeholder="Ingrese su correo">
+                    </section>
+
+                    <section class="loginenvelopeform__labelinput loginenvelopeform__labelinput--flex">
+                        <label for="lock"><img src="img/icons/lock_FILL0_wght100_GRAD200_opsz48.svg" alt="Icono de candado, referencia a la contraseña"></label>
+                        <input type="password" id="lock" placeholder="Ingrese su contraseña">
+                    </section>
+
+                    <section class="loginenvelopeform__checkBox loginenvelopeform__checkBox--flex">
+                        <label for="checkBox">Mostrar contraseña</label><input aria-label="Mostrar contraseña" id="checkBox" type="checkbox">
+                    </section>
+                </section>
+
+                <button class="loginenvelopeform__button"  aria-label="Boton de crear cuenta">
+                    Crear cuenta
+                </button>
+            </section>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <article class="footer__article footer__article--flex">
+            <section class="footer__section footer__section--flex">
+                <p>
+                    Soporte al cliente
+                </p>
+
+                <nav class="footer__nav footer__nav--flex">
+                    <a href="#" >Facturacion</a>
+                    <a href="#" >Ayuda</a>
+                    <a href="#">Mis compras</a>
+                    <a href="#" >Garantia liverpool</a>
+                </nav>
+            </section>
+
+            <section class="footer__section footer__section--flex">
+                <p>
+                    Acerca de Liverpool
+                </p>
+
+                <nav class="footer__nav footer__nav--flex">
+                    <a href="#">Bolsa de trabajo</a>
+                    <a href="#">Quienes somos</a>
+                    <a href="#">Relacion con invercionistas</a>
+                    <a href="#">Sostenibilidad</a>
+                </nav>
+            </section>
+
+            <section class="footer__section footer__section--flex">
+                <p>
+                    Servicios de Liverpool
+                </p>
+
+                <nav class="footer__nav footer__nav--flex">
+                    <a href="#">Credito</a>
+                    <a href="#">Tiempo aire</a>
+                    <a href="#">Concurso y promociones</a>
+                    <a href="#">Diseño interiores</a>
+                    <a href="#">Ventas corporativas</a>
+                </nav>
+            </section>
+        </article>
+    </footer>
+</body>
+</html>

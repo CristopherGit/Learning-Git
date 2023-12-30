@@ -1,0 +1,163 @@
+
+
+
+.main{
+    padding: 3em 0em;
+    .main__article{
+        &.main__article--flex{
+            @include flex(column, none, none, none, center, 2em);
+        }
+        
+        margin: 0 auto;
+        width: 77%;
+        .main__welcome{
+            h1{
+                @include font(clamp(1em, 5vw, 5em), 700, rgb(219 0 128));
+            }
+        }
+    }
+
+    .main__description{
+        &.main__description--flex{
+            @include flex(column, none, none, none, center, 1em);
+        }
+        background-color: rgb(238 164 201);
+        border-radius: 0.5em;
+        padding: 1em;
+        h2{
+            @include font(clamp(1em, 5vw, 3em), 500, rgb(219 0 128));
+        }
+
+        p{
+            font-family: 'Montserrat';
+            color: rgb(52 52 52);
+            font-size: 1.5em;
+            font-weight: 600;
+        }
+    }
+}
+
+.zoneofbuy{
+    padding: 2em 1em;
+    .zoneofbuy__article{
+        &.zoneofbuy__article--flex{
+            @include flex(column, none, none, center, center, 3em);
+        }
+        .zoneofbuy__list{
+            &.zoneofbuy__list--flex{
+                @include flex(column, none, none, center, center, 2em);
+            }
+            background-color: rgb(238, 164, 201);
+            padding: 1em 3em;
+            .zoneofbuy__nameproducts{
+                @include font(2em, 600, rgb(219 0 128));
+            }
+            .zoneofbuy__productsimg{
+                .zoneofbuy__nav{
+                    &.zoneofbuy__nav--flex{
+                        @include flex(row, wrap, none, none, none, 5em);
+                    }
+                    a{
+                        img{
+                            border-radius: 1em;
+                            width: 25vw;
+                        }
+                    }
+                }
+            }
+
+            .zoneofbuy__seemore{
+                button{
+                    @include buttonLink2;
+
+                    &:hover{
+                        @include buttonLinkHover2;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.loginenvelopeform{
+    margin: 0 auto;
+    width: 80%;
+    padding: 7em 1em;
+    .loginenvelopeform__article{
+        background-color: rgb(219 0 128 / 51%);
+        border-radius: 1em;
+        .loginenvelopeform__section{
+            &.loginenvelopeform__section--flex{
+                @include flex(column, none, none, none, center, 3em);
+            }
+            padding: 1em;
+            .loginenvelopeform__h1{
+                font-family: 'Montserrat';
+                font-weight: 700;
+                color: rgb(255,255,255);
+                font-size: 2em;
+            }
+
+            .loginenvelopeform__form{
+                .loginenvelopeform__labelinput{
+                    &.loginenvelopeform__labelinput--flex{
+                        @include flex(none, none, none, center, center, 1em);
+                    }
+                    input{
+                        border-style: none;
+                        border-radius: 1em;
+                        width: 16em;
+                        padding: 1em;
+                        height: 0em;
+                        color: rgb(56 56 56);
+                        font-size: 1em;
+                        border-style: solid;
+                        border-color: rgb(255,255,255);
+                        transition: 0.5s;
+
+                        &:focus{
+                            outline: none;
+                            border-style: solid;
+                            border-color: rgb(9 187 165);
+                            transition: 0.5s;
+                        }
+                    }
+                }
+
+                .loginenvelopeform__checkBox{
+                    &.loginenvelopeform__checkBox--flex{
+                        @include flex(row, none, none, center, center, 1em);
+                    }
+                    
+
+                    label{
+                        font-family: 'Montserrat';
+                        color: rgb(34 34 34);
+                    }
+                }
+            }
+
+            .loginenvelopeform__button{
+                @include buttonLink2;
+                &:hover{
+                    @include buttonLinkHover2; 
+                }
+            }
+        }
+    }
+}
+
+
+body::-webkit-scrollbar {
+    width: 12px;  
+}
+
+body::-webkit-scrollbar-track {
+background: rgb(186, 186, 186); 
+}
+
+body::-webkit-scrollbar-thumb {
+background-color: rgb(113, 113, 113); 
+border-radius: 1em;
+border: 3px solid rgb(186, 186, 186); 
+}

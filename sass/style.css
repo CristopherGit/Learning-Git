@@ -1,0 +1,328 @@
+.header .header__articlelogo .header__section1.header__section1--flex {
+  display: flex;
+  flex-direction: none;
+  flex-wrap: none;
+  align-content: none;
+  justify-content: center;
+  align-items: none;
+  gap: none;
+}
+.header .header__articlelogo .header__section1 img {
+  width: 12em;
+}
+.header .header__articlelist {
+  background-color: rgb(219, 0, 128);
+  padding: 1em 2em;
+}
+.header .header__articlelist .header__section2.header__section2--flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: none;
+  align-content: none;
+  justify-content: space-between;
+  align-items: center;
+  gap: none;
+}
+.header .header__articlelist .header__section2 .header__nav.header__nav--flex {
+  display: flex;
+  flex-direction: none;
+  flex-wrap: none;
+  align-content: none;
+  justify-content: none;
+  align-items: none;
+  gap: 1em;
+}
+.header .header__articlelist .header__section2 .header__nav > a {
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat";
+  text-decoration: none;
+  font-size: clamp(0.5em, 3vw, 1.5em);
+  font-weight: 400;
+  transition: 1s;
+  text-decoration-color: rgb(159, 159, 159);
+}
+.header .header__articlelist .header__section2 .header__nav > a:hover {
+  color: rgb(159, 159, 159);
+  transition: 0.5s;
+  text-decoration: overline;
+  text-decoration-color: rgb(159, 159, 159);
+}
+.header .header__articlelist .header__section2 section a {
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat";
+  text-decoration: none;
+  font-size: clamp(0.5em, 3vw, 1.5em);
+  font-weight: 400;
+  transition: 1s;
+  text-decoration-color: rgb(159, 159, 159);
+}
+.header .header__articlelist .header__section2 section a:hover {
+  color: rgb(159, 159, 159);
+  transition: 0.5s;
+  text-decoration: overline;
+  text-decoration-color: rgb(159, 159, 159);
+}
+
+.main {
+  padding: 3em 0em;
+}
+.main .main__article {
+  margin: 0 auto;
+  width: 77%;
+}
+.main .main__article.main__article--flex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: none;
+  align-content: none;
+  justify-content: none;
+  align-items: center;
+  gap: 2em;
+}
+.main .main__article .main__welcome h1 {
+  font-size: clamp(1em, 5vw, 5em);
+  font-family: "Montserrat";
+  color: rgb(219, 0, 128);
+  font-weight: 700;
+}
+.main .main__description {
+  background-color: rgb(238, 164, 201);
+  border-radius: 0.5em;
+  padding: 1em;
+}
+.main .main__description.main__description--flex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: none;
+  align-content: none;
+  justify-content: none;
+  align-items: center;
+  gap: 1em;
+}
+.main .main__description h2 {
+  font-size: clamp(1em, 5vw, 3em);
+  font-family: "Montserrat";
+  color: rgb(219, 0, 128);
+  font-weight: 500;
+}
+.main .main__description p {
+  font-family: "Montserrat";
+  color: rgb(52, 52, 52);
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.zoneofbuy {
+  padding: 2em 1em;
+}
+.zoneofbuy .zoneofbuy__article.zoneofbuy__article--flex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: none;
+  align-content: none;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+}
+.zoneofbuy .zoneofbuy__article .zoneofbuy__list {
+  background-color: rgb(238, 164, 201);
+  padding: 1em 3em;
+}
+.zoneofbuy .zoneofbuy__article .zoneofbuy__list.zoneofbuy__list--flex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: none;
+  align-content: none;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+.zoneofbuy .zoneofbuy__article .zoneofbuy__list .zoneofbuy__nameproducts {
+  font-size: 2em;
+  font-family: "Montserrat";
+  color: rgb(219, 0, 128);
+  font-weight: 600;
+}
+.zoneofbuy .zoneofbuy__article .zoneofbuy__list .zoneofbuy__productsimg .zoneofbuy__nav.zoneofbuy__nav--flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: none;
+  justify-content: none;
+  align-items: none;
+  gap: 5em;
+}
+.zoneofbuy .zoneofbuy__article .zoneofbuy__list .zoneofbuy__productsimg .zoneofbuy__nav a img {
+  border-radius: 1em;
+  width: 25vw;
+}
+.zoneofbuy .zoneofbuy__article .zoneofbuy__list .zoneofbuy__seemore button {
+  font-size: 1em;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  background-color: rgb(219, 0, 128);
+  border-radius: 2em;
+  padding: 0.5em;
+  border-style: solid;
+  border-color: rgb(219, 0, 128);
+  border-width: 0.2em;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.zoneofbuy .zoneofbuy__article .zoneofbuy__list .zoneofbuy__seemore button:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(219, 0, 128);
+  transition: 0.5s;
+}
+
+.loginenvelopeform {
+  margin: 0 auto;
+  width: 80%;
+  padding: 7em 1em;
+}
+.loginenvelopeform .loginenvelopeform__article {
+  background-color: rgba(219, 0, 128, 0.51);
+  border-radius: 1em;
+}
+.loginenvelopeform .loginenvelopeform__article .loginenvelopeform__section {
+  padding: 1em;
+}
+.loginenvelopeform .loginenvelopeform__article .loginenvelopeform__section.loginenvelopeform__section--flex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: none;
+  align-content: none;
+  justify-content: none;
+  align-items: center;
+  gap: 3em;
+}
+.loginenvelopeform .loginenvelopeform__article .loginenvelopeform__section .loginenvelopeform__h1 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+}
+.loginenvelopeform .loginenvelopeform__article .loginenvelopeform__section .loginenvelopeform__form .loginenvelopeform__labelinput.loginenvelopeform__labelinput--flex {
+  display: flex;
+  flex-direction: none;
+  flex-wrap: none;
+  align-content: none;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+.loginenvelopeform .loginenvelopeform__article .loginenvelopeform__section .loginenvelopeform__form .loginenvelopeform__labelinput input {
+  border-style: none;
+  border-radius: 1em;
+  width: 16em;
+  padding: 1em;
+  height: 0em;
+  color: rgb(56, 56, 56);
+  font-size: 1em;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  transition: 0.5s;
+}
+.loginenvelopeform .loginenvelopeform__article .loginenvelopeform__section .loginenvelopeform__form .loginenvelopeform__labelinput input:focus {
+  outline: none;
+  border-style: solid;
+  border-color: rgb(9, 187, 165);
+  transition: 0.5s;
+}
+.loginenvelopeform .loginenvelopeform__article .loginenvelopeform__section .loginenvelopeform__form .loginenvelopeform__checkBox.loginenvelopeform__checkBox--flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: none;
+  align-content: none;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+.loginenvelopeform .loginenvelopeform__article .loginenvelopeform__section .loginenvelopeform__form .loginenvelopeform__checkBox label {
+  font-family: "Montserrat";
+  color: rgb(34, 34, 34);
+}
+.loginenvelopeform .loginenvelopeform__article .loginenvelopeform__section .loginenvelopeform__button {
+  font-size: 1em;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  background-color: rgb(219, 0, 128);
+  border-radius: 2em;
+  padding: 0.5em;
+  border-style: solid;
+  border-color: rgb(219, 0, 128);
+  border-width: 0.2em;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.loginenvelopeform .loginenvelopeform__article .loginenvelopeform__section .loginenvelopeform__button:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(219, 0, 128);
+  transition: 0.5s;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(186, 186, 186);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(113, 113, 113);
+  border-radius: 1em;
+  border: 3px solid rgb(186, 186, 186);
+}
+
+.footer .footer__article {
+  background-color: rgb(219, 0, 128);
+  padding: 1em;
+}
+.footer .footer__article.footer__article--flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: none;
+  align-content: none;
+  justify-content: none;
+  align-items: none;
+  gap: 1em;
+}
+.footer .footer__article .footer__section.footer__section--flex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: none;
+  align-content: none;
+  justify-content: none;
+  align-items: none;
+  gap: 1em;
+}
+.footer .footer__article .footer__section p {
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-size: 1.5em;
+}
+.footer .footer__article .footer__section .footer__nav.footer__nav--flex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: none;
+  align-content: none;
+  justify-content: none;
+  align-items: none;
+  gap: 1em;
+}
+.footer .footer__article .footer__section .footer__nav a {
+  font-size: 1em;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: none;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.footer .footer__article .footer__section .footer__nav a:hover {
+  color: rgb(188, 188, 188);
+  text-decoration: underline;
+  transition: 0.5s;
+}/*# sourceMappingURL=style.css.map */

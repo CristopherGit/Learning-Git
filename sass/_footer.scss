@@ -1,0 +1,35 @@
+.footer{
+    .footer__article{
+        &.footer__article--flex{
+            @include flex(row, none, none, none, none, 1em);
+        }
+        background-color: rgb(219 0 128);
+        padding: 1em;
+        .footer__section{
+            &.footer__section--flex{
+                @include flex(column, none, none, none, none, 1em);
+            }
+            p{
+                font-family: 'Montserrat';
+                color: rgb(255,255,255);
+                font-size: 1.5em;
+            }
+
+            .footer__nav{
+                &.footer__nav--flex{
+                    @include flex(column, none, none, none, none, 1em);
+                }
+                a{
+                    @include font(1em, none, rgb(255,255,255));
+                    text-decoration: none;
+                    transition: 0.5s;
+                    &:hover{
+                        color: rgb(188, 188, 188);
+                        text-decoration: underline;
+                        transition: 0.5s;
+                    }
+                }
+            }
+        }
+    }
+}

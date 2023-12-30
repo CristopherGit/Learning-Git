@@ -1,0 +1,45 @@
+.header{
+    .header__articlelogo{
+        .header__section1{
+            &.header__section1--flex{
+                @include flex(none, none, none, center, none, none);
+            }
+            img{
+                width: 12em;
+            }
+        }
+    }
+
+    .header__articlelist{
+        background-color: $colorPrincipal;
+        padding: 1em 2em;
+        .header__section2{
+            &.header__section2--flex{
+                @include flex(row, none, none, space-between, center, none);
+            }
+            .header__nav{
+                &.header__nav--flex{
+                    @include flex(none, none, none, none, none, 1em);
+                }
+
+                & > a{
+                    @include buttonLink1;
+
+                    &:hover{
+                        @include buttonLinkHover1;
+                    }
+                }
+            }
+
+            section{
+                a{
+                    @include buttonLink1;
+
+                    &:hover{
+                        @include buttonLinkHover1;
+                    }
+                }
+            }
+        }
+    }
+}

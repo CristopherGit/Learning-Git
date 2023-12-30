@@ -1,0 +1,20 @@
+$fontFamily: 'Montserrat', sans-serif;
+$colorPrincipal: rgb(219 0 128);
+$colorFont: rgb(255,255,255);
+
+@mixin flex($flexDirection, $flexWrap, $alignContent, $justifyContent, $alignItems, $gap){
+    display: flex;
+    flex-direction: $flexDirection;
+    flex-wrap: $flexWrap;
+    align-content: $alignContent;
+    justify-content: $justifyContent;
+    align-items: $alignItems;
+    gap: $gap;
+};
+
+@mixin font($fontSize, $fontWeight, $color){
+    font-size: $fontSize;
+    font-family: 'Montserrat';
+    color: $color;
+    font-weight: $fontWeight;
+};
